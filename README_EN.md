@@ -20,12 +20,7 @@ The mapping rule is to map /https/url to the https interface, and /http/url to t
 demo1: visit https://yourdomain.com/https/api.openai.com/v1/chat/completions
 Actually will be replaced with https://api.openai.com/v1/chat/completions
 
-demo2: visit https://yourdomain.com/https/raw.githubusercontent.com/souying/serverMmon
-Actually will be replaced with https://raw.githubusercontent.com/souying/serverMmon
-![demo2](img/demo2.png)
-The mapping rule is to map /https/url to the https interface, and /http/url to the http interface.
-
-demo3: visit https://yourdomain.com/https/www.google.com/search?q=vercel-api-proxy
+demo2: visit https://yourdomain.com/https/www.google.com/search?q=vercel-api-proxy
 Actually will be replaced with https://www.google.com/search?q=vercel-api-proxy
 ![demo3](img/demo3.png)
 Reverse proxy Google search results page.

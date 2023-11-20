@@ -49,12 +49,7 @@ If you think this tool is good, please gently click the **Star** button in the u
 所以使用的时候只需要设置一下openai.api_base="https://你的域名/https/api.openai.com/v1" 就可以了
 
 例2   
-访问https://你的域名/https/github.com/souying/serverMmon/
-实际上会替换为https://github.com/souying/serverMmon/
-![demo2](img/demo2.png)
-映射规则为/https/url映射到https接口，/http/url映射到http接口
-
-也可用于github下载加速。假如原始链接是https://objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 
+用于github下载加速。假如原始链接是https://objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 
 改为https://替换为你自己的域名.com/https/objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 就可以加速了。下图是github原始链接和加速后对比。可以看到效果杠杠的，每秒50kb小水管变成了每秒2-3mb
 ![github-download](img/github-download.png)
 
